@@ -24,38 +24,26 @@ The game includes smooth marble animations, card handling (including special bur
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/jackaroo.git
-
+2. Open the project in your IDE (Eclipse, IntelliJ, or VS Code).
+3. Make sure JavaFX is configured.
+4. Play and enjoy the game!
 ---
 
 ## 🖼️ Screenshots
-Here are some previews of the Jackaroo Game in action:  
 
-*(Add your own screenshots in a `screenshots/` folder and link them here)*  
-
-Example:
 ![Main Menu](screenshots/main-menu.png)
 ![Gameplay](screenshots/gameplay.png)
+![Winning Scene](screenshots/winningscene.png)
+
 
 ---
 
-## 🤝 Contributing
-Contributions are welcome!  
-If you’d like to add new features, improve the UI, or fix bugs:
+## 👨‍💻 Team & Credits
 
-1. Fork the repository  
-2. Create a feature branch (`git checkout -b feature/your-feature`)  
-3. Commit your changes (`git commit -m "Add new feature"`)  
-4. Push to your branch (`git push origin feature/your-feature`)  
-5. Open a Pull Request  
+Built with 💡 and a lot of passion by a 4-member developer team:
+
+- **Mohamed Enan** – [LinkedIn](https://www.linkedin.com/in/mohamed-enan-1122ba306/)
+- **Mahmoud abohady** – [LinkedIn](https://www.linkedin.com/in/mahmoud-abohady/)
+- **Ahmed Reda** – [LinkedIn](https://www.linkedin.com/in/ahmed-reda-8084442b4/)
 
 ---
-
-## 📜 License
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙌 Acknowledgements
-- Inspired by the traditional **Jackaroo board game**  
-- Built with **JavaFX**  
-- Thanks to contributors and testers who helped refine the gameplay  
