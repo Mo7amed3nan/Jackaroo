@@ -1,0 +1,195 @@
+.desert-button {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5b3a1a;
+    -fx-background-color: linear-gradient(to bottom right, #c19a6b, #e0c097);
+    -fx-padding: 10 25;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-border-color: #a67c2e;
+    -fx-border-width: 2px;
+}
+/* Error message label styling */
+.label-error {
+    -fx-text-fill: #d32f2f; /* red */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial";
+}
+.brown-button {
+    -fx-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    -fx-background-color: #8B4513; /* SaddleBrown */
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 4 10 4 10; /* minimal vertical padding */
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.15) , 4, 0, 0, 2 );
+    -fx-min-height: 24px;
+}
+
+.brown-button:hover {
+    -fx-background-color: #A0522D; /* lighter brown */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.3) , 8, 0, 0, 4 );
+    -fx-translate-y: -2px;
+}
+
+.brown-button:pressed {
+    -fx-translate-y: 0;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.15) , 4, 0, 0, 2 );
+}
+/* OK button styling */
+.button-ok {
+    -fx-background-color: #c62828;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Verdana";
+    -fx-background-radius: 6px;
+    -fx-padding: 6 16;
+}
+
+/* Optional: Style the VBox layout if needed */
+.error-window {
+    -fx-background-color: #fff5f5;
+    -fx-border-color: #e57373;
+    -fx-border-width: 2;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+.board-cell-circle {
+  width: 60px;
+  height: 60px;
+  background: #2e2e2e; /* Dark grey */
+  border: 1px solid #1a1a1a;
+  box-shadow: inset 4px 4px 8px #1a1a1a,
+              inset -4px -4px 8px #3a3a3a;
+  border-radius: 50%; /* Makes it a circle */
+}
+
+.text-field {
+    -fx-background-color: #fdf6e3;
+    -fx-text-fill: #5c3a12;
+    -fx-border-color: #a0522d;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-font-size: 16px;
+}
+.woody-button {
+    -fx-font-family: "Georgia", "Serif";
+    -fx-font-size: 12px; /* Smaller font */
+    -fx-font-weight: 600;
+    -fx-text-fill: #ffffff; /* White text for contrast */
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #6a0dad, #b19cd9); /* Purple gradient */
+    -fx-padding: 6 18; /* Smaller padding */
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-border-color: #4b0082; /* Dark purple border */
+    -fx-border-width: 2px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(106, 13, 173, 0.4), 5, 0, 0, 2); /* Slight purple shadow */
+}
+ 
+
+.woody-button:hover {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #d2b48c, #8b5e3c);
+    -fx-effect: dropshadow( gaussian , rgba(93, 64, 38, 0.8) , 8, 0, 0, 4);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+
+.creative-button {
+    -fx-font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: linear-gradient(135deg, #6a11cb, #2575fc);
+    -fx-padding: 10 30;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow( gaussian , rgba(38, 44, 77, 0.4) , 6, 0, 0, 2);
+    -fx-transition: all 0.3s ease;
+}
+
+.creative-button:hover {
+    -fx-background-color: linear-gradient(135deg, #2575fc, #6a11cb);
+    -fx-effect: dropshadow( gaussian , rgba(38, 44, 77, 0.7) , 8, 0, 0, 4);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.simple-button {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+    -fx-text-fill: #333333;
+    -fx-background-color: #f0f0f0;
+    -fx-padding: 8 20;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+    -fx-effect: none;
+    -fx-transition: all 0.3s ease;
+}
+
+.simple-button:hover {
+    -fx-background-color: #e0e0e0;
+    -fx-border-color: #999999;
+}
+
+.button:disabled {
+    -fx-opacity: 0.5;
+    -fx-text-fill: #999;
+    -fx-cursor: default;
+}.custom-textfield {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 20px;
+    -fx-text-fill: #5b3a1a;
+    -fx-background-color: #fdf5e6;
+    -fx-border-color: #a67c2e;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+
+/* styles.css */
+.glowing-circle {
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.6), 20, 0.3, 0, 0);
+    -fx-stroke: black;
+    -fx-stroke-width: 2;
+    -fx-cursor: hand;
+
+    /* smooth transition */
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+    -fx-transition: all 0.3s ease;
+}
+
+.glowing-circle:hover {
+    -fx-scale-x: 1.2; /* the scale of enlarging the marble */
+    -fx-scale-y: 1.2;
+}
+.wood-circle {
+    -fx-background-image: url("/images/wood.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-border-radius: 100;
+    -fx-background-radius: 100;
+    -fx-min-width: 120px;
+    -fx-min-height: 120px;
+    -fx-max-width: 120px;
+    -fx-max-height: 120px;
+    -fx-border-color: saddlebrown;
+    -fx-border-width: 2;
+}
+
