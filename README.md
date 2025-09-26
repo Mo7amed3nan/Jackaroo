@@ -40,7 +40,7 @@ The game includes smooth marble animations, card handling (including special bur
 
 ## 👨‍💻 Team & Credits
 
-Built with 💡 and a lot of passion by a 4-member developer team:
+Built with 💡 and a lot of passion by a 3-member developer team:
 
 - **Mohamed Enan** – [LinkedIn](https://www.linkedin.com/in/mohamed-enan-1122ba306/)
 - **Mahmoud abohady** – [LinkedIn](https://www.linkedin.com/in/mahmoud-abohady/)
